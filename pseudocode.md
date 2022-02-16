@@ -1,37 +1,29 @@
 # Coffee Psuedo
 
-## Turn coffee machine on
-If coffee maker is off
-turn coffee machine on
-else do nothing
+1. **Turn on coffee maker**
+- If the coffee maker is off, we need to turn on the coffee maker
 
-## Get water
-If water is equal to zero
-fill water reservoir to 12 cups
+2. **Get water**
+- If we have no water, we need to add water until it is greater than or equal to 1 cup
 
-## Get coffee
+3. **Get coffee**
+- We need to get the coffee we are using to add to the coffee maker
 
-## Get scoop
+4. **Get coffee scoop**
+- We need to get the scoop we are going to use to add a set amount of scoops of coffee to the coffee maker
 
-If coffee is equal to zero
-add coffee to 3 scoops
+5. **Add coffee**
+- Here, we will need to add 3 scoops off coffee to the coffee maker that will later combine with the water
 
-## Get coffee cup
-Place coffee cup in coffee machine
+6. **Select brew type**
+- There will be multiple selections (an array) of brew types
+- Brew type needs to be selected between strong, regular, espresso, or iced
+- Once brew type is selected, it will display on screen element
 
-## Select brew type
-If brew selection is equal to "strong" 
-press brew button
-else iterate until brew selection equals strong
-then press brew button
-
-## Remove full coffee cup
-If coffee cup is full
-remove coffee cup and coffee
-else leave coffee cup in machine until full
-
-## Turn coffee machine off
-Turn off coffee machine if coffee cup is full
+7. **Brew the coffee and turn machine off**
+- Needs to take the input from brew type
+- Then combines both a cup of water and the 3 scoops of coffee
+- Once the water and coffee are combined, the machine will then turn off
 
 ```Coffee Pseudo Code Format
 
